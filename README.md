@@ -30,6 +30,6 @@ date,cardholder,merchant,category,amount,currency,type
 1. If you don't have Python 3 installed, run `brew install python` (for Mac).
 2. Run `pip3 install pytest` if you don't have pytest already installed.
 3. Run `pytest` to run all tests.
-4. Run `pytest -k test_refunds` to run a single test.
+4. Run `pytest -k test_case_two` to run a single test.
 
 You can add print statements or change any code. Tested on Python 3.11.

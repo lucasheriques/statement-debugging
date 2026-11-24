@@ -3,7 +3,7 @@ from lib.index import StatementGenerator
 input_folder = "input/"
 
 
-def test_single_cardholder_in_usd():
+def test_case_one():
     generator = StatementGenerator(input_folder + "test_1.txt")
     assert generator.run() == (
         'alice: $383.15\n'
@@ -15,7 +15,7 @@ def test_single_cardholder_in_usd():
     )
 
 
-def test_transactions_on_period_edges():
+def test_case_two():
     generator = StatementGenerator(input_folder + "test_2.txt")
     assert generator.run() == (
         'bob: $306.65\n'
@@ -26,7 +26,7 @@ def test_transactions_on_period_edges():
     )
 
 
-def test_foreign_currency():
+def test_case_three():
     generator = StatementGenerator(input_folder + "test_3.txt")
     assert generator.run() == (
         'carol: $517.16\n'
@@ -38,7 +38,7 @@ def test_foreign_currency():
     )
 
 
-def test_refunds():
+def test_case_four():
     generator = StatementGenerator(input_folder + "test_4.txt")
     assert generator.run() == (
         'dave: $335.50\n'
@@ -49,7 +49,7 @@ def test_refunds():
     )
 
 
-def test_categories_with_equal_spend():
+def test_case_five():
     generator = StatementGenerator(input_folder + "test_5.txt")
     assert generator.run() == (
         'erin: $180.00\n'
@@ -61,7 +61,7 @@ def test_categories_with_equal_spend():
     )
 
 
-def test_large_and_small_amounts():
+def test_case_six():
     generator = StatementGenerator(input_folder + "test_6.txt")
     assert generator.run() == (
         'frank: $1,212.05\n'
@@ -72,7 +72,7 @@ def test_large_and_small_amounts():
     )
 
 
-def test_full_month_for_the_company():
+def test_case_seven():
     generator = StatementGenerator(input_folder + "test_7.txt")
     assert generator.run() == (
         'gina: $175.12\n'
