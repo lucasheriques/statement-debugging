@@ -1,6 +1,0 @@
-{
-  "setupTasks": [{ "name": "Install pytest", "command": "pip install pytest" }],
-  "tasks": {
-    "test": { "name": "Run tests", "command": "pytest" }
-  }
-}
