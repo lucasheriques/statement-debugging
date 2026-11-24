@@ -1,0 +1,6 @@
+# period: 2026-10-01 to 2026-10-31
+# fx: EUR=1.08, BRL=0.18
+date,cardholder,merchant,category,amount,currency,type
+2026-10-04,carol,Lufthansa,travel,450.00,EUR,purchase
+2026-10-06,carol,Padaria Real,meals,62.00,BRL,purchase
+2026-10-11,carol,Notion,software,20.00,USD,purchase

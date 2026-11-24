@@ -1,0 +1,6 @@
+# period: 2026-10-01 to 2026-10-31
+date,cardholder,merchant,category,amount,currency,type
+2026-10-02,alice,Blue Bottle,meals,14.50,USD,purchase
+2026-10-09,alice,Figma,software,45.00,USD,purchase
+2026-10-15,alice,Delta,travel,312.40,USD,purchase
+2026-10-20,alice,Blue Bottle,meals,11.25,USD,purchase

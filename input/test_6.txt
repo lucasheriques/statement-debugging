@@ -1,0 +1,4 @@
+# period: 2026-10-01 to 2026-10-31
+date,cardholder,merchant,category,amount,currency,type
+2026-10-02,frank,Starbucks,meals,8.05,USD,purchase
+2026-10-14,frank,Apple,equipment,1204.00,USD,purchase

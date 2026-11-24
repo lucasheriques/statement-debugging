@@ -1,0 +1,6 @@
+# period: 2026-10-01 to 2026-10-31
+date,cardholder,merchant,category,amount,currency,type
+2026-09-30,bob,Uber,travel,23.40,USD,purchase
+2026-10-01,bob,Sweetgreen,meals,16.75,USD,purchase
+2026-10-31,bob,Hilton,travel,289.90,USD,purchase
+2026-11-01,bob,Uber,travel,31.20,USD,purchase

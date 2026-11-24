@@ -1,0 +1,5 @@
+# period: 2026-10-01 to 2026-10-31
+date,cardholder,merchant,category,amount,currency,type
+2026-10-05,erin,Slack,software,50.00,USD,purchase
+2026-10-07,erin,Amtrak,travel,80.00,USD,purchase
+2026-10-09,erin,Benihana,meals,50.00,USD,purchase

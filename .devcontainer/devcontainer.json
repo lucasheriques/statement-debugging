@@ -1,0 +1,6 @@
+{
+  "name": "statement",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install pytest",
+  "customizations": { "vscode": { "extensions": ["ms-python.python", "ms-vsliveshare.vsliveshare"] } }
+}

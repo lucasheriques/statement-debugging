@@ -1,0 +1,5 @@
+# period: 2026-10-01 to 2026-10-31
+date,cardholder,merchant,category,amount,currency,type
+2026-10-03,dave,United,travel,420.00,USD,purchase
+2026-10-08,dave,Chipotle,meals,35.50,USD,purchase
+2026-10-12,dave,United,travel,120.00,USD,refund

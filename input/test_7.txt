@@ -1,0 +1,15 @@
+# period: 2026-11-01 to 2026-11-30
+# fx: EUR=1.08, GBP=1.27, BRL=0.18
+date,cardholder,merchant,category,amount,currency,type
+2026-10-31,gina,Uber,travel,18.20,USD,purchase
+2026-11-01,gina,Ryanair,travel,89.99,EUR,purchase
+2026-11-03,hugo,AWS,software,1250.00,USD,purchase
+2026-11-04,gina,Pret,meals,9.40,GBP,purchase
+2026-11-06,hugo,Hertz,travel,210.00,USD,purchase
+2026-11-07,hugo,Hertz,travel,60.00,USD,refund
+2026-11-09,gina,Ryanair,travel,89.99,EUR,declined
+2026-11-12,hugo,Outback,meals,150.00,USD,purchase
+2026-11-15,gina,Spotify,software,11.99,USD,purchase
+2026-11-21,hugo,Datadog,software,40.00,USD,purchase
+2026-11-30,gina,Coco Bambu,meals,300.00,BRL,purchase
+2026-12-01,hugo,AWS,software,1250.00,USD,purchase
